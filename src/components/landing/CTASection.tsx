@@ -1,9 +1,12 @@
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { useLanguage } from "@/i18n/LanguageContext";
+import { RequestDemoModal } from "@/components/RequestDemoModal";
 
 const CTASection = () => {
   const { t } = useLanguage();
+  const [modalOpen, setModalOpen] = useState(false);
   return (
     <section className="section-padding bg-background">
       <div className="max-w-3xl mx-auto text-center">
@@ -24,10 +27,12 @@ const CTASection = () => {
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
             className="btn-primary text-base px-10 py-5"
+            onClick={() => setModalOpen(true)}
           >
             {t<string>("common.requestDemo")}
             <ArrowRight size={18} strokeWidth={1.5} />
           </motion.button>
+          <RequestDemoModal isOpen={modalOpen} onClose={() => setModalOpen(false)} />
         </motion.div>
 
         <motion.div

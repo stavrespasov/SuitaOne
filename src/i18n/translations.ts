@@ -26,6 +26,22 @@ export const translations: Record<Lang, Dict> = {
     common: {
       requestDemo: "Request a Demo",
     },
+    demo: {
+      modal: {
+        title: "Request a Demo",
+        subtitle: "See SuitaOne in action. We'll reach out within 24 hours.",
+        namePlaceholder: "Your full name",
+        hotelPlaceholder: "Hotel name",
+        emailPlaceholder: "Work email",
+        phonePlaceholder: "Phone (optional)",
+        messagePlaceholder: "Tell us about your property...",
+        submit: "Request a Demo",
+        sending: "Sending...",
+        success: "Request Sent!",
+        successMsg: "We'll be in touch shortly.",
+        error: "Something went wrong. Please try again.",
+      },
+    },
     hero: {
       eyebrow: "Hotel Technology Platform",
       title: "The Digital Concierge for Modern Hotels",
@@ -162,6 +178,22 @@ export const translations: Record<Lang, Dict> = {
       continue: "Nastavi",
     },
     common: { requestDemo: "Zatraži demo" },
+    demo: {
+      modal: {
+        title: "Zatraži demo",
+        subtitle: "Pogledajte SuitaOne uživo. Javit ćemo se unutar 24 sata.",
+        namePlaceholder: "Vaše ime i prezime",
+        hotelPlaceholder: "Naziv hotela",
+        emailPlaceholder: "Poslovni e-mail",
+        phonePlaceholder: "Telefon (neobvezno)",
+        messagePlaceholder: "Recite nam nešto o vašem objektu...",
+        submit: "Zatraži demo",
+        sending: "Slanje...",
+        success: "Zahtjev poslan!",
+        successMsg: "Uskoro ćemo vas kontaktirati.",
+        error: "Nešto je pošlo po krivu. Pokušajte ponovo.",
+      },
+    },
     hero: {
       eyebrow: "Hotelska tehnološka platforma",
       title: "Digitalni concierge za moderne hotele",
@@ -298,6 +330,22 @@ export const translations: Record<Lang, Dict> = {
       continue: "Nadaljuj",
     },
     common: { requestDemo: "Zahtevaj predstavitev" },
+    demo: {
+      modal: {
+        title: "Zahtevaj predstavitev",
+        subtitle: "Oglejte si SuitaOne v akciji. Odzvali se bomo v 24 urah.",
+        namePlaceholder: "Vaše ime in priimek",
+        hotelPlaceholder: "Ime hotela",
+        emailPlaceholder: "Službeni e-mail",
+        phonePlaceholder: "Telefon (neobvezno)",
+        messagePlaceholder: "Povejte nam o svojem objektu...",
+        submit: "Zahtevaj predstavitev",
+        sending: "Pošiljanje...",
+        success: "Zahteva poslana!",
+        successMsg: "Kmalu se vam bomo oglasili.",
+        error: "Nekaj je šlo narobe. Poskusite znova.",
+      },
+    },
     hero: {
       eyebrow: "Hotelska tehnološka platforma",
       title: "Digitalni concierge za sodobne hotele",
